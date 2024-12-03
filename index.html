@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <center>
+      <button onclick="bluboff()">off</button>
+      <img src="./off-blub.jpg" alt="off-bulb" id="image" />
+      <button onclick="blubon()">on</button>
+    </center>
+    <script>
+      function bluboff() {
+        let img = document.getElementById("image");
+        img.src = "off-blub.jpg";
+      }
+
+      function blubon() {
+        let img = document.getElementById("image");
+        img.src = "on-blub.jpg";
+      }
+    </script>
+  </body>
+</html>
